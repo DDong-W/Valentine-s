@@ -48,7 +48,7 @@
 			        </div>
                 </div>
                 <div id="clock-box">
-                    <span class="STYLE1">现在是</span>男某某 <span class="STYLE1" style="color: red">❤</span> 女某某<span class="STYLE1" style="color: red">相恋</span>
+                    <span class="STYLE1">现在是</span>我们 <span class="STYLE1" style="color: red">❤</span> 相恋<span class="STYLE1" style="color: red">❤</span>
                   <div id="clock"></div>
               </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
@@ -190,11 +190,11 @@
        //下面修改起始日期
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
-		    together.setFullYear(2020, 1, 2); 			//时间年月日 月份0~11
-		    together.setHours(22);						//小时	
-		    together.setMinutes(22);					//分钟
-		    together.setSeconds(2);					//秒前一位
-		    together.setMilliseconds(2);				//秒第二位
+		    together.setFullYear(2020, 2, 14); 			//时间年月日 月份0~11
+		    together.setHours(0);						//小时	
+		    together.setMinutes(0);					//分钟
+		    together.setSeconds(0);					//秒前一位
+		    together.setMilliseconds(0);				//秒第二位
 
 		    $("#code").show().typewriter();
             $("#clock-box").fadeIn(500);
